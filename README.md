@@ -58,7 +58,6 @@ https://cdn.jsdelivr.net/gh/NahayaSakafuku/SphereMapPlus@main/repo.json
 
 - 方案绑定按 **mod 名称**匹配(需与 Penumbra 列表中的名称一致);Glamourer 方案里的装备
   来自哪些 mod,就绑哪些 mod
-- 切片 19-23 / 27 / 29-31 是着色器瓦片纹理,替换会影响使用它们的材质;空片是安全目标
 - 测试高亮(全部切片变纯色)可快速验证替换链路
 
 ## 构建
