@@ -26,7 +26,7 @@ public sealed class SphereMapPlusPlugin : IDalamudPlugin
         _window = new ProbeWindow(pluginInterface, log, clientState, _patch, _library, _autoSwitch);
         _pi.UiBuilder.Draw += _window.Draw;
         _pi.UiBuilder.OpenConfigUi += _window.Toggle;
-        log.Info("SphereMapPlus v1.0.0 已加载");
+        log.Info("SphereMapPlus v1.0.1 已加载");
     }
 
     public void Dispose()
