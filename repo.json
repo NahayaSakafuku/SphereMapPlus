@@ -9,9 +9,12 @@
     "Punchline": "自定义球面贴图 / 方案联动",
     "AssemblyVersion": "1.0.0",
     "RepoUrl": "https://github.com/NahayaSakafuku/SphereMapPlus",
-    "DownloadLinkInstall": "https://github.com/NahayaSakafuku/SphereMapPlus/releases/download/v1.0.0/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/NahayaSakafuku/SphereMapPlus/releases/download/v1.0.0/latest.zip",
-    "DownloadLinkTesting": "https://github.com/NahayaSakafuku/SphereMapPlus/releases/download/v1.0.0/latest.zip",
-    "Tags": ["gui", "utility"]
+    "DownloadLinkInstall": "https://cdn.jsdelivr.net/gh/NahayaSakafuku/SphereMapPlus@main/dist/SphereMapPlus-1.0.0.zip",
+    "DownloadLinkUpdate": "https://cdn.jsdelivr.net/gh/NahayaSakafuku/SphereMapPlus@main/dist/SphereMapPlus-1.0.0.zip",
+    "DownloadLinkTesting": "https://cdn.jsdelivr.net/gh/NahayaSakafuku/SphereMapPlus@main/dist/SphereMapPlus-1.0.0.zip",
+    "Tags": [
+      "gui",
+      "utility"
+    ]
   }
 ]
