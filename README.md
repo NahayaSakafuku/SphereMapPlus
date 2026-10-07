@@ -33,19 +33,21 @@ FF14 (XIV) Dalamud 插件:运行时替换全局球面贴图,不改任何游戏�
 ### 方式一:插件仓库(推荐,可自动更新)
 
 1. 游戏内输入 `/xlsettings`,进入 **实验性(Experimental)** 选项卡;
-2. 在 **自定义插件仓库(Custom Plugin Repositories)** 中添加:
+2. 在 **自定义插件仓库(Custom Plugin Repositories)** 中添加(**请完整复制,不要改动版本号**):
 
    ```
-   https://raw.githubusercontent.com/NahayaSakafuku/SphereMapPlus/main/repo.json
+   https://cdn.jsdelivr.net/gh/NahayaSakafuku/SphereMapPlus@v1.0.1/repo.json
    ```
 
 3. 点击右下角 **保存**;
 4. 打开 **Dalamud 插件列表**(系统菜单 → Dalamud Plugins),搜索 `SphereMapPlus` 并安装。
 
-**国内网络镜像**:如果 `raw.githubusercontent.com` 无法访问,可改用 jsDelivr CDN 地址(内容相同,国内可直连):
+> 注意:地址中的 `@v1.0.1` 是发布版本号,**必须与当前发布版本一致**。若日后升级到新版本,请回到本页复制最新版本的仓库地址。
+
+### 方式二:直连仓库清单(与方式一内容一致)
 
 ```
-https://cdn.jsdelivr.net/gh/NahayaSakafuku/SphereMapPlus@main/repo.json
+https://raw.githubusercontent.com/NahayaSakafuku/SphereMapPlus/main/repo.json
 ```
 
 ### 方式二:手动安装
