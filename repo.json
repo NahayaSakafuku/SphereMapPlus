@@ -1,0 +1,17 @@
+[
+  {
+    "Author": "NahayaSakafuku",
+    "Name": "SphereMapPlus",
+    "InternalName": "SphereMapPlus",
+    "Description": "运行时替换 FF14 全局球面贴图(切片导入/仓库/方案),支持与 Penumbra mod 绑定、Glamourer 切幻化自动切换。不修改游戏文件。/ Replace the game's global spheremap textures at runtime with Penumbra mod binding and Glamourer auto-switching. No game file modification.",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 15,
+    "Punchline": "自定义球面贴图 / 方案联动",
+    "AssemblyVersion": "1.0.0",
+    "RepoUrl": "https://github.com/NahayaSakafuku/SphereMapPlus",
+    "DownloadLinkInstall": "https://github.com/NahayaSakafuku/SphereMapPlus/releases/download/v1.0.0/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/NahayaSakafuku/SphereMapPlus/releases/download/v1.0.0/latest.zip",
+    "DownloadLinkTesting": "https://github.com/NahayaSakafuku/SphereMapPlus/releases/download/v1.0.0/latest.zip",
+    "Tags": ["gui", "utility"]
+  }
+]

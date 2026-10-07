@@ -1,0 +1,11 @@
+{
+    "Author": "NahayaSakafuku",
+    "Name": "SphereMapPlus",
+    "InternalName": "SphereMapPlus",
+    "Description": "运行时扩容 FF14 全局球面贴图纹理数组(chara/common/texture/sphere_d_array.tex),让自定义球面贴图可被 Penumbra 等材质编辑器原生选用。不修改游戏文件。/ Extends the game's global spheremap texture array at runtime, no game file modification.",
+    "ApplicableVersion": "any",
+    "Punchline": "球面贴图数组扩容 / 自定义球面贴图",
+    "DalamudApiLevel": 15,
+    "RepoUrl": "https://github.com/NahayaSakafuku/SphereMapPlus",
+    "Version": "1.0.0"
+}

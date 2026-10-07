@@ -1,0 +1,18 @@
+<Project Sdk="Dalamud.NET.SDK/15.0.0">
+	<PropertyGroup>
+		<Authors>NahayaSakafuku</Authors>
+		<Version>1.0.0</Version>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+		<ProduceReferenceAssembly>false</ProduceReferenceAssembly>
+		<CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+		<OutputPath>bin\$(Configuration)\</OutputPath>
+		<NoWarn>CS1591</NoWarn>
+		<EnableWindowsTargeting>true</EnableWindowsTargeting>
+		<Nullable>disable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+</Project>

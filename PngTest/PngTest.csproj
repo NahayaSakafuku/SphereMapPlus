@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Using Include="System.Numerics" />
+    <Using Include="FFXIVClientStructs.FFXIV.Client.Graphics.Kernel" />
+    <Compile Include="../SphereMapPlus/Imaging/PngWriter.cs" />
+    <Compile Include="../SphereMapPlus/Imaging/PngReader.cs" />
+    <Compile Include="../SphereMapPlus/Imaging/ImageScale.cs" />
+    <Compile Include="../SphereMapPlus/Imaging/Bc1Encoder.cs" />
+    <Compile Include="../SphereMapPlus/Native/D3D11.cs" />
+    <Compile Include="../SphereMapPlus/Native/Memory.cs" />
+    <Compile Include="../SphereMapPlus/Probe/SliceReader.cs" />
+    <Reference Include="FFXIVClientStructs">
+      <HintPath>C:\Users\NahayaSakafuku\AppData\Roaming\XIVLauncher\addon\Hooks\dev\FFXIVClientStructs.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
